@@ -1,0 +1,48 @@
+rss_feeds:
+  - name: OpenAI News
+    channel: official
+    url: https://openai.com/news/rss.xml
+    weight: 1.0
+  - name: Google AI Blog
+    channel: official
+    url: https://blog.google/technology/ai/rss/
+    weight: 0.95
+  - name: MIT Technology Review AI
+    channel: industry
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    weight: 0.75
+  - name: 量子位
+    channel: chinese_media
+    url: https://www.qbitai.com/feed
+    weight: 0.7
+
+arxiv:
+  categories:
+    - cs.AI
+    - cs.CL
+    - cs.CV
+    - cs.LG
+  max_results: 20
+  weight: 0.8
+
+github_trending:
+  language: python
+  since: daily
+  topics:
+    - ai
+    - llm
+    - agents
+    - machine-learning
+  weight: 0.9
+
+channels:
+  official:
+    label: 官方公告
+  github:
+    label: GitHub
+  papers:
+    label: 论文
+  chinese_media:
+    label: 中文媒体
+  industry:
+    label: 产业商业

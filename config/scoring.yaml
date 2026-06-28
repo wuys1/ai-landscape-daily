@@ -1,0 +1,51 @@
+weights:
+  source_weight: 0.25
+  cross_source_score: 0.20
+  frequency_score: 0.15
+  freshness_score: 0.15
+  momentum_score: 0.15
+  community_score: 0.10
+
+max_topics: 12
+max_overall_rankings: 20
+max_channel_rankings: 12
+
+topic_taxonomy:
+  - AI 智能体与工作流
+  - 大模型与推理能力
+  - 多模态与视频生成
+  - AI 基础设施与芯片
+  - 开源模型与开发者工具
+  - AI 编程与软件工程
+  - 企业应用与生产力
+  - 科学、医疗与教育应用
+  - 安全、治理与政策
+  - 投融资与产业竞争
+  - 数据、搜索与内容生态
+  - 机器人与具身智能
+
+source_channel_weights:
+  official: 1.0
+  github: 0.9
+  papers: 0.8
+  chinese_media: 0.7
+  industry: 0.75
+
+topic_aliases:
+  agents: AI 智能体与工作流
+  agent: AI 智能体与工作流
+  ai agents: AI 智能体与工作流
+  llm: 大模型与推理能力
+  llms: 大模型与推理能力
+  large language model: 大模型与推理能力
+  reasoning: 大模型与推理能力
+  open model: 开源模型与开发者工具
+  open models: 开源模型与开发者工具
+  multimodal: 多模态与视频生成
+  video: 多模态与视频生成
+  chip: AI 基础设施与芯片
+  inference: AI 基础设施与芯片
+  coding: AI 编程与软件工程
+  codex: AI 编程与软件工程
+  healthcare: 科学、医疗与教育应用
+  policy: 安全、治理与政策

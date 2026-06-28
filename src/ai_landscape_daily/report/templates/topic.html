@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ topic.name }} / 主题洞察{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <div class="kicker">{{ report_date }} / 主题洞察</div>
+    <h1>{{ topic.name }}</h1>
+    <p class="lead">{{ topic.summary }}</p>
+  </div>
+  <aside class="stamp">
+    <span class="muted">Heat Score</span>
+    <strong>{{ "%.1f"|format(topic.score) }}</strong>
+    <span class="muted">{{ topic.trend }}</span>
+  </aside>
+</section>
+
+<section class="section split">
+  <nav class="side-list">
+    {% for item in topics %}
+    <a class="{{ 'active' if item.slug == topic.slug else '' }}" href="./{{ item.slug }}.html">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+  <div>
+    <h2>Supporting Sources</h2>
+    <div class="hotlist">
+      {% for item_id in topic.evidence_item_ids %}
+      {% set source = items[item_id] %}
+      <article class="source-card">
+        <h3><a href="{{ source.canonical_url }}">{{ source.title }}</a></h3>
+        <p class="muted">{{ source.summary }}</p>
+        <div class="tags"><span class="tag">{{ source.source_channel }}</span><span class="tag">{{ source.source_name }}</span></div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section dashboard">
+  <div>
+    <h2>Score Components</h2>
+    <div class="hotlist">
+      {% for key, value in topic.score_components.items() %}
+      <article class="rank-item">
+        <div class="rank">{{ loop.index }}</div>
+        <div><h3>{{ key }}</h3><p class="muted">Explainable contribution to the final heat score.</p></div>
+        <div class="score">{{ "%.1f"|format(value) }}</div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Follow-up Observations</h2>
+    <p class="lead">观察该主题后续是否扩散到更多渠道、是否出现官方确认、以及 GitHub/论文信号是否转化为产业落地。</p>
+  </div>
+</section>
+{% endblock %}

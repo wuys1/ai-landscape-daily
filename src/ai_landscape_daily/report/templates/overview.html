@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}AI 态势日报 {{ report_date }}{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <div class="kicker">{{ report_date }} / 态势总览</div>
+    <h1>AI 态势日报</h1>
+    <p class="lead">把分散在官方公告、GitHub、论文、中文媒体和产业媒体里的信号，压缩成今天可解释的主题格局。</p>
+  </div>
+  <aside class="stamp">
+    <span class="muted">今日主题</span>
+    <strong>{{ topics|length }}</strong>
+    <span class="muted">热榜信号 {{ overall|length }} 条</span>
+  </aside>
+</section>
+
+<section class="section dashboard">
+  <div>
+    <h2>Topic Landscape</h2>
+    <div class="graph">
+      {% for topic in topics[:8] %}
+      <a class="node" href="./topics/{{ topic.slug }}.html" style="left: {{ 8 + (loop.index0 * 23) % 70 }}%; top: {{ 12 + (loop.index0 * 31) % 62 }}%; background: {{ ['#fffaf0', '#e7f1ee', '#f8e1d4', '#edf0d6', '#e3e7f2'][loop.index0 % 5] }};">
+        <span>{{ topic.name }}</span>
+        <small>{{ "%.1f"|format(topic.score) }}</small>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div>
+    <h2>Overall Hotlist</h2>
+    <div class="hotlist">
+      {% for entry in overall[:8] %}
+      <article class="rank-item">
+        <div class="rank">{{ entry.rank }}</div>
+        <div>
+          <h3><a href="{{ entry.source_url }}">{{ entry.title }}</a></h3>
+          <p class="muted">{{ entry.summary }}</p>
+          <div class="tags">{% for tag in entry.tags[:4] %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+        </div>
+        <div class="score">{{ "%.1f"|format(entry.heat_score) }}</div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Theme Entries</h2>
+  <div class="topic-grid">
+    {% for topic in topics %}
+    <article class="topic-card">
+      <h3><a href="./topics/{{ topic.slug }}.html">{{ topic.name }}</a></h3>
+      <p class="muted">{{ topic.summary }}</p>
+      <div class="tags">{% for tag in topic.tags[:5] %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+    </article>
+    {% endfor %}
+  </div>
+  {% if failures %}
+  <p class="failure">采集失败源：{{ failures|length }} 个，日报已继续生成。</p>
+  {% endif %}
+</section>
+{% endblock %}

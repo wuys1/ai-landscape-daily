@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}{{ selected_channel_label }} / 渠道热榜{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <div class="kicker">{{ report_date }} / 渠道热榜</div>
+    <h1>{{ selected_channel_label }}</h1>
+    <p class="lead">按渠道查看今日信号，保留标题、标签、摘要、热度分和原始来源链接。</p>
+  </div>
+  <aside class="stamp">
+    <span class="muted">Entries</span>
+    <strong>{{ entries|length }}</strong>
+    <span class="muted">{{ selected_channel }}</span>
+  </aside>
+</section>
+
+<section class="section split">
+  <nav class="side-list">
+    {% for channel, meta in channels.items() %}
+    <a class="{{ 'active' if channel == selected_channel else '' }}" href="./{{ channel }}.html">{{ meta.label }}</a>
+    {% endfor %}
+  </nav>
+  <div class="hotlist">
+    {% for entry in entries %}
+    <article class="rank-item">
+      <div class="rank">{{ entry.rank }}</div>
+      <div>
+        <h3><a href="{{ entry.source_url }}">{{ entry.title }}</a></h3>
+        <p class="muted">{{ entry.summary }}</p>
+        <div class="tags">{% for tag in entry.tags[:5] %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+      </div>
+      <div class="score">{{ "%.1f"|format(entry.heat_score) }}</div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
