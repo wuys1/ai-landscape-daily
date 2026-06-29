@@ -94,7 +94,7 @@ SMTP_USE_SSL=true
 
 工作流位于 `.github/workflows/daily.yml`，支持：
 
-- 每日定时运行：`0 23 * * *` UTC。
+- 每日定时运行：北京时间 09:07，定时任务会默认发送邮件。
 - `workflow_dispatch` 手动运行，可传入 `report_date` 和 `send_email`。
 - 安装依赖和 Playwright Chromium。
 - 运行日报生成命令。

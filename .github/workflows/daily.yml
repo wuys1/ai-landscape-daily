@@ -2,7 +2,8 @@ name: AI Landscape Daily
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "7 9 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
     inputs:
       report_date:
@@ -58,11 +59,11 @@ jobs:
           SMTP_USE_TLS: ${{ secrets.SMTP_USE_TLS }}
         run: |
           SEND_FLAG=""
-          if [ "${{ github.event.inputs.send_email }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.send_email }}" = "true" ]; then
             SEND_FLAG="--send"
           fi
           python -m ai_landscape_daily generate \
-            --date "${{ github.event.inputs.report_date || 'today' }}" \
+            --date "${{ inputs.report_date || 'today' }}" \
             --output-dir site \
             --db data/ai_daily.sqlite3 \
             $SEND_FLAG
