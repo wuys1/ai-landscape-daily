@@ -21,16 +21,16 @@ def build_email_html(report_date: date, report_url: str | None, snapshot_path: P
     snapshot_html = ""
     if snapshot_path and snapshot_path.exists():
         snapshot_html = (
-            f'<p><img src="cid:{SNAPSHOT_CID}" alt="AI 态势日报快照" '
-            'style="max-width: 100%; border: 1px solid #e5e7eb; border-radius: 8px;" /></p>'
+            f'<p><img src="cid:{SNAPSHOT_CID}" alt="AI日报快照" '
+            'style="width: 100%; max-width: 1440px; border: 1px solid #e5e7eb; border-radius: 8px;" /></p>'
         )
     else:
         snapshot_html = "<p>快照生成失败，但网页报告已生成。</p>"
     return f"""
     <html>
       <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #171717;">
-        <h1>AI 态势日报 {report_date.isoformat()}</h1>
-        <p>今日报告已生成，包含态势总览、主题洞察和渠道热榜。</p>
+        <h1>AI日报 {report_date.isoformat()}</h1>
+        <p>今日报告已生成，包含官方公告、中文媒体、产业媒体、GitHub 趋势和论文来源的高热条目。</p>
         {snapshot_html}
         {report_link}
       </body>

@@ -29,9 +29,9 @@ async def _capture(overview_path: Path, output_path: Path) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     async with async_playwright() as p:
         browser = await p.chromium.launch()
-        page = await browser.new_page(viewport={"width": 1440, "height": 1100}, device_scale_factor=1)
+        page = await browser.new_page(viewport={"width": 1440, "height": 1200}, device_scale_factor=1)
         await page.goto(overview_path.resolve().as_uri(), wait_until="networkidle")
-        await page.screenshot(path=str(output_path), full_page=False)
+        await page.screenshot(path=str(output_path), full_page=True)
         await browser.close()
     return output_path
 
