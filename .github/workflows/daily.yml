@@ -2,8 +2,8 @@ name: AI Landscape Daily
 
 on:
   schedule:
-    - cron: "7 9 * * *"
-      timezone: "Asia/Shanghai"
+    # GitHub Actions cron uses UTC. This runs at 09:07 Asia/Shanghai.
+    - cron: "7 1 * * *"
   workflow_dispatch:
     inputs:
       report_date:
