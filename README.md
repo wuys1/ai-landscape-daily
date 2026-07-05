@@ -66,12 +66,12 @@ source_weight * 0.25
 
 使用 `--send` 时必须配置：
 
-- `EMAIL_TO`
 - `EMAIL_FROM`
 - `RESEND_API_KEY`，或 SMTP 组合：`SMTP_HOST`、`SMTP_USERNAME`、`SMTP_PASSWORD`
 
 可选：
 
+- `EMAIL_TO`：邮件收件人，支持逗号或分号分隔。未配置时默认发送给 `yswu103@163.com`、`zhang_run_han@163.com`。
 - `REPORT_BASE_URL`：邮件中的 Web 报告链接基地址。
 - `LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`：可选 OpenAI-compatible 模型配置。任意实现 `/v1/chat/completions` 协议的模型服务都可以使用；三项必须一起配置。
 
@@ -81,7 +81,7 @@ source_weight * 0.25
 
 ```env
 EMAIL_FROM=your_name@163.com
-EMAIL_TO=your_name@163.com,other@example.com
+EMAIL_TO=yswu103@163.com,zhang_run_han@163.com
 SMTP_HOST=smtp.163.com
 SMTP_PORT=465
 SMTP_USERNAME=your_name@163.com
@@ -98,15 +98,15 @@ SMTP_USE_SSL=true
 - `workflow_dispatch` 手动运行，可传入 `report_date` 和 `send_email`。
 - 安装依赖和 Playwright Chromium。
 - 运行日报生成命令。
-- 上传 `site/` 为 GitHub Pages artifact。
+- 推送 `site/` 内容到 `gh-pages` 分支作为 GitHub Pages 站点。
 - 上传 SQLite 数据库为 workflow artifact。
 
 仓库设置中建议配置：
 
 - Repository variables：`REPORT_BASE_URL`
-- Repository secrets：`EMAIL_TO`、`EMAIL_FROM`、`RESEND_API_KEY` 或 SMTP secrets、可选 `LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`
+- Repository secrets：`EMAIL_FROM`、`RESEND_API_KEY` 或 SMTP secrets、可选 `EMAIL_TO`、`LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`
 
-启用 GitHub Pages 时，选择 GitHub Actions 作为 Pages 来源。
+启用 GitHub Pages 时，选择 `gh-pages` 分支根目录作为 Pages 来源。
 
 ## 静态托管
 

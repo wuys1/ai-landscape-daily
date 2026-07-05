@@ -7,6 +7,7 @@ from email.message import EmailMessage
 from pathlib import Path
 
 SNAPSHOT_CID = "ai_daily_snapshot"
+DEFAULT_RECIPIENTS = ["yswu103@163.com", "zhang_run_han@163.com"]
 
 
 class EmailConfigError(RuntimeError):
@@ -41,18 +42,21 @@ def build_email_html(report_date: date, report_url: str | None, snapshot_path: P
 def send_email(subject: str, html: str, snapshot_path: Path | None = None) -> None:
     to = os.getenv("EMAIL_TO")
     sender = os.getenv("EMAIL_FROM")
-    if not to or not sender:
-        raise EmailConfigError("EMAIL_TO and EMAIL_FROM are required when --send is used.")
+    if not sender:
+        raise EmailConfigError("EMAIL_FROM is required when --send is used.")
+    recipients = _parse_recipients(to)
     resend_key = os.getenv("RESEND_API_KEY")
     if resend_key:
-        _send_resend(resend_key, sender, _parse_recipients(to), subject, html)
+        _send_resend(resend_key, sender, recipients, subject, html)
         return
-    _send_smtp(sender, _parse_recipients(to), subject, html, snapshot_path)
+    _send_smtp(sender, recipients, subject, html, snapshot_path)
 
 
-def _parse_recipients(value: str) -> list[str]:
+def _parse_recipients(value: str | None) -> list[str]:
+    if not value:
+        return DEFAULT_RECIPIENTS.copy()
     recipients = [item.strip() for item in value.replace(";", ",").split(",")]
-    return [item for item in recipients if item]
+    return [item for item in recipients if item] or DEFAULT_RECIPIENTS.copy()
 
 
 def _send_resend(api_key: str, sender: str, recipients: list[str], subject: str, html: str) -> None:
