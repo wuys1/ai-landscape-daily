@@ -16,9 +16,7 @@ on:
         default: "false"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -68,10 +66,23 @@ jobs:
             --db data/ai_daily.sqlite3 \
             $SEND_FLAG
 
-      - name: Upload static site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+      - name: Deploy static site
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          touch site/.nojekyll
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf /tmp/ai-landscape-daily-pages
+          mkdir -p /tmp/ai-landscape-daily-pages
+          cp -R site/. /tmp/ai-landscape-daily-pages/
+          cd /tmp/ai-landscape-daily-pages
+          git init
+          git checkout -b gh-pages
+          git add -A
+          git commit -m "Deploy AI daily site"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin gh-pages
 
       - name: Upload SQLite artifact
         uses: actions/upload-artifact@v4
@@ -79,14 +90,3 @@ jobs:
           name: ai-landscape-sqlite
           path: data/ai_daily.sqlite3
           if-no-files-found: ignore
-
-  deploy:
-    needs: generate
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
