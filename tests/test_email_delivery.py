@@ -1,11 +1,16 @@
 from __future__ import annotations
 
-from ai_landscape_daily.email.delivery import DEFAULT_RECIPIENTS, _parse_recipients
+import pytest
+
+from ai_landscape_daily.email.delivery import EmailConfigError, _parse_recipients, send_email
 
 
-def test_parse_recipients_uses_default_list_when_unset():
-    assert _parse_recipients(None) == DEFAULT_RECIPIENTS
-    assert _parse_recipients("") == DEFAULT_RECIPIENTS
+def test_send_email_requires_recipients(monkeypatch):
+    monkeypatch.delenv("EMAIL_TO", raising=False)
+    monkeypatch.setenv("EMAIL_FROM", "sender@example.com")
+
+    with pytest.raises(EmailConfigError, match="EMAIL_TO and EMAIL_FROM"):
+        send_email("subject", "<p>hello</p>")
 
 
 def test_parse_recipients_accepts_comma_and_semicolon_lists():

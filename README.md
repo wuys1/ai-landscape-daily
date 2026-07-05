@@ -66,12 +66,12 @@ source_weight * 0.25
 
 使用 `--send` 时必须配置：
 
+- `EMAIL_TO`
 - `EMAIL_FROM`
 - `RESEND_API_KEY`，或 SMTP 组合：`SMTP_HOST`、`SMTP_USERNAME`、`SMTP_PASSWORD`
 
 可选：
 
-- `EMAIL_TO`：邮件收件人，支持逗号或分号分隔。未配置时默认发送给 `yswu103@163.com`、`zhang_run_han@163.com`。
 - `REPORT_BASE_URL`：邮件中的 Web 报告链接基地址。
 - `LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`：可选 OpenAI-compatible 模型配置。任意实现 `/v1/chat/completions` 协议的模型服务都可以使用；三项必须一起配置。
 
@@ -104,7 +104,7 @@ SMTP_USE_SSL=true
 仓库设置中建议配置：
 
 - Repository variables：`REPORT_BASE_URL`
-- Repository secrets：`EMAIL_FROM`、`RESEND_API_KEY` 或 SMTP secrets、可选 `EMAIL_TO`、`LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`
+- Repository secrets：`EMAIL_TO`、`EMAIL_FROM`、`RESEND_API_KEY` 或 SMTP secrets、可选 `LLM_BASE_URL`、`LLM_API_KEY`、`LLM_MODEL`
 
 启用 GitHub Pages 时，选择 `gh-pages` 分支根目录作为 Pages 来源。
 
