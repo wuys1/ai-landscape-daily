@@ -101,12 +101,13 @@ def list_items(conn: sqlite3.Connection) -> list[sqlite3.Row]:
 
 
 def list_items_by_ids(conn: sqlite3.Connection, item_ids: list[int]) -> list[sqlite3.Row]:
-    if not item_ids:
+    unique_item_ids = sorted(set(item_ids))
+    if not unique_item_ids:
         return []
-    placeholders = ", ".join("?" for _ in item_ids)
+    placeholders = ", ".join("?" for _ in unique_item_ids)
     return conn.execute(
         f"SELECT * FROM source_items WHERE id IN ({placeholders}) ORDER BY published_at DESC, id DESC",
-        sorted(set(item_ids)),
+        unique_item_ids,
     ).fetchall()
 
 

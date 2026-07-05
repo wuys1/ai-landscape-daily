@@ -8,7 +8,7 @@ weights:
 
 max_topics: 12
 max_overall_rankings: 20
-max_channel_rankings: 12
+max_channel_rankings: 100
 
 topic_taxonomy:
   - AI 智能体与工作流

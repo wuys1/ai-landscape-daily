@@ -18,7 +18,9 @@ def test_mock_generation_creates_sqlite_and_static_files(tmp_path):
     assert result.item_count >= 6
     assert result.topic_count >= 1
     assert result.overview_path.exists()
+    html = result.overview_path.read_text(encoding="utf-8")
+    assert "AI日报" in html
+    assert "官方公告" in html
+    assert "channel-card" in html
     assert (result.output_dir / "assets" / "report-data.json").exists()
     assert result.snapshot_path and result.snapshot_path.exists()
-    assert list((result.output_dir / "topics").glob("*.html"))
-    assert list((result.output_dir / "channels").glob("*.html"))

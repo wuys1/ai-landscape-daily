@@ -3,21 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}AI 态势日报{% endblock %}</title>
+    <title>{% block title %}AI日报{% endblock %}</title>
     <link rel="stylesheet" href="{{ root_prefix }}/assets/styles.css">
   </head>
   <body>
     <main class="page-shell">
-      <header class="topbar">
-        <div class="brand">AI Landscape Daily</div>
-        <nav class="nav">
-          <a href="{{ root_prefix }}/index.html">态势总览</a>
-          {% if topics %}
-          <a href="{{ root_prefix }}/topics/{{ topics[0].slug }}.html">主题洞察</a>
-          {% endif %}
-          <a href="{{ root_prefix }}/channels/index.html">渠道热榜</a>
-        </nav>
-      </header>
       {% block content %}{% endblock %}
     </main>
   </body>

@@ -12,6 +12,14 @@ from ai_landscape_daily.models import RankingEntry, TopicNode
 
 TEMPLATE_DIR = Path(__file__).parent / "templates"
 STATIC_DIR = Path(__file__).parent / "static"
+CHANNEL_ORDER = ["official", "chinese_media", "industry", "github", "papers"]
+CHANNEL_LABELS = {
+    "official": "官方公告",
+    "chinese_media": "中文媒体",
+    "industry": "产业媒体",
+    "github": "GitHub 趋势",
+    "papers": "论文",
+}
 
 
 def render_report(
@@ -25,8 +33,10 @@ def render_report(
     failures: list[tuple[str, str, str]],
 ) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
-    (output_dir / "topics").mkdir(exist_ok=True)
-    (output_dir / "channels").mkdir(exist_ok=True)
+    for stale_dir in ("topics", "channels"):
+        stale_path = output_dir / stale_dir
+        if stale_path.exists():
+            shutil.rmtree(stale_path)
     assets_dir = output_dir / "assets"
     assets_dir.mkdir(exist_ok=True)
     for asset in STATIC_DIR.iterdir():
@@ -44,40 +54,21 @@ def render_report(
         channel: [entry for entry in rankings if entry.scope == "channel" and entry.channel == channel]
         for channel in channels
     }
+    channel_counts = _channel_counts(rows)
+    channel_sections = _channel_sections(channels, channel_rankings, channel_counts)
     context = {
         "report_date": report_date.isoformat(),
         "topics": topics,
         "overall": overall,
         "channels": channels,
         "channel_rankings": channel_rankings,
+        "channel_sections": channel_sections,
         "items": item_map,
         "failures": failures,
         "root_prefix": ".",
     }
     overview_path = output_dir / "index.html"
     overview_path.write_text(env.get_template("overview.html").render(**context), encoding="utf-8")
-
-    for topic in topics:
-        topic_context = context | {"topic": topic, "root_prefix": ".."}
-        (output_dir / "topics" / f"{topic.slug}.html").write_text(
-            env.get_template("topic.html").render(**topic_context),
-            encoding="utf-8",
-        )
-
-    default_channel = next(iter(channels), None)
-    for channel, meta in channels.items():
-        channel_context = context | {
-            "selected_channel": channel,
-            "selected_channel_label": meta.get("label", channel),
-            "entries": channel_rankings.get(channel, []),
-            "root_prefix": "..",
-        }
-        (output_dir / "channels" / f"{channel}.html").write_text(
-            env.get_template("channel.html").render(**channel_context),
-            encoding="utf-8",
-        )
-    if default_channel:
-        shutil.copy2(output_dir / "channels" / f"{default_channel}.html", output_dir / "channels" / "index.html")
 
     data = {
         "date": report_date.isoformat(),
@@ -91,3 +82,51 @@ def render_report(
 
 def _row_dict(row: sqlite3.Row) -> dict:
     return {key: row[key] for key in row.keys()}
+
+
+def _channel_counts(rows: list[sqlite3.Row]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for row in rows:
+        channel = row["source_channel"]
+        counts[channel] = counts.get(channel, 0) + 1
+    return counts
+
+
+def _channel_sections(
+    channels: dict,
+    channel_rankings: dict[str, list[RankingEntry]],
+    channel_counts: dict[str, int],
+) -> list[dict]:
+    ordered_channels = [channel for channel in CHANNEL_ORDER if channel in channels]
+    ordered_channels.extend(channel for channel in channels if channel not in ordered_channels)
+    sections = []
+    for channel in ordered_channels:
+        entries = channel_rankings.get(channel, [])
+        if not entries:
+            continue
+        total_count = max(channel_counts.get(channel, 0), len(entries))
+        label = CHANNEL_LABELS.get(channel) or channels[channel].get("label", channel)
+        sections.append(
+            {
+                "key": channel,
+                "label": label,
+                "code": channel,
+                "description": channels[channel].get("description", _channel_description(channel)),
+                "count": total_count,
+                "top_entries": entries[:10],
+                "extra_entries": entries[10:],
+                "more_count": max(total_count - 10, 0),
+            }
+        )
+    return sections
+
+
+def _channel_description(channel: str) -> str:
+    descriptions = {
+        "official": "发布、产品、政策",
+        "chinese_media": "国内产品、产业落地",
+        "industry": "融资、商业化、生态",
+        "github": "开源项目、工具链",
+        "papers": "研究趋势、方法论",
+    }
+    return descriptions.get(channel, "来源信号")

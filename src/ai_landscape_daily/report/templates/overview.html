@@ -1,62 +1,64 @@
 {% extends "base.html" %}
-{% block title %}AI 态势日报 {{ report_date }}{% endblock %}
+{% block title %}AI日报 {{ report_date }}{% endblock %}
 {% block content %}
-<section class="hero">
-  <div>
-    <div class="kicker">{{ report_date }} / 态势总览</div>
-    <h1>AI 态势日报</h1>
-    <p class="lead">把分散在官方公告、GitHub、论文、中文媒体和产业媒体里的信号，压缩成今天可解释的主题格局。</p>
-  </div>
-  <aside class="stamp">
-    <span class="muted">今日主题</span>
-    <strong>{{ topics|length }}</strong>
-    <span class="muted">热榜信号 {{ overall|length }} 条</span>
-  </aside>
+<section class="masthead">
+  <div class="dateline">{{ report_date }} / AI DAILY</div>
+  <h1>AI日报</h1>
+  <p>官方公告、中文媒体、产业媒体、GitHub 趋势与论文来源的今日高热条目。每个来源默认展示 Top 10。</p>
 </section>
 
-<section class="section dashboard">
-  <div>
-    <h2>Topic Landscape</h2>
-    <div class="graph">
-      {% for topic in topics[:8] %}
-      <a class="node" href="./topics/{{ topic.slug }}.html" style="left: {{ 8 + (loop.index0 * 23) % 70 }}%; top: {{ 12 + (loop.index0 * 31) % 62 }}%; background: {{ ['#fffaf0', '#e7f1ee', '#f8e1d4', '#edf0d6', '#e3e7f2'][loop.index0 % 5] }};">
-        <span>{{ topic.name }}</span>
-        <small>{{ "%.1f"|format(topic.score) }}</small>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-  <div>
-    <h2>Overall Hotlist</h2>
-    <div class="hotlist">
-      {% for entry in overall[:8] %}
-      <article class="rank-item">
-        <div class="rank">{{ entry.rank }}</div>
-        <div>
+<section class="channel-grid" aria-label="AI日报频道榜单">
+  {% for section in channel_sections %}
+  <article class="channel-card channel-{{ section.key }}">
+    <header class="channel-head">
+      <div>
+        <h2>{{ section.label }}</h2>
+        <span>{{ section.code }}</span>
+      </div>
+      <div class="channel-meta">
+        <strong>{{ section.count }}</strong>
+        <span>{{ section.description }}</span>
+      </div>
+    </header>
+
+    <ol class="rank-list">
+      {% for entry in section.top_entries %}
+      <li>
+        <div class="rank-no">{{ "%02d"|format(loop.index) }}</div>
+        <div class="rank-copy">
           <h3><a href="{{ entry.source_url }}">{{ entry.title }}</a></h3>
-          <p class="muted">{{ entry.summary }}</p>
-          <div class="tags">{% for tag in entry.tags[:4] %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
+          <p class="entry-meta">{{ entry.tags[:2]|join(" · ") }}{% if entry.tags %} · {% endif %}热度 {{ "%.0f"|format(entry.heat_score) }}</p>
+          <p>{{ entry.summary }}</p>
         </div>
-        <div class="score">{{ "%.1f"|format(entry.heat_score) }}</div>
-      </article>
+      </li>
       {% endfor %}
-    </div>
-  </div>
+    </ol>
+
+    {% if section.more_count > 0 %}
+    <details class="more-list">
+      <summary>
+        <span>查看更多 {{ section.more_count }} 条</span>
+        <small>点击后展开该来源的完整条目</small>
+      </summary>
+      <ol class="rank-list extra">
+        {% for entry in section.extra_entries %}
+        <li>
+          <div class="rank-no">{{ "%02d"|format(loop.index + 10) }}</div>
+          <div class="rank-copy">
+            <h3><a href="{{ entry.source_url }}">{{ entry.title }}</a></h3>
+            <p class="entry-meta">{{ entry.tags[:2]|join(" · ") }}{% if entry.tags %} · {% endif %}热度 {{ "%.0f"|format(entry.heat_score) }}</p>
+            <p>{{ entry.summary }}</p>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+  </article>
+  {% endfor %}
 </section>
 
-<section class="section">
-  <h2>Theme Entries</h2>
-  <div class="topic-grid">
-    {% for topic in topics %}
-    <article class="topic-card">
-      <h3><a href="./topics/{{ topic.slug }}.html">{{ topic.name }}</a></h3>
-      <p class="muted">{{ topic.summary }}</p>
-      <div class="tags">{% for tag in topic.tags[:5] %}<span class="tag">{{ tag }}</span>{% endfor %}</div>
-    </article>
-    {% endfor %}
-  </div>
-  {% if failures %}
-  <p class="failure">采集失败源：{{ failures|length }} 个，日报已继续生成。</p>
-  {% endif %}
-</section>
+{% if failures %}
+<p class="failure">采集失败源：{{ failures|length }} 个，日报已继续生成。</p>
+{% endif %}
 {% endblock %}

@@ -39,10 +39,10 @@ channels:
   official:
     label: 官方公告
   github:
-    label: GitHub
+    label: GitHub 趋势
   papers:
     label: 论文
   chinese_media:
     label: 中文媒体
   industry:
-    label: 产业商业
+    label: 产业媒体

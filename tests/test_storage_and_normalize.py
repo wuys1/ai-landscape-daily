@@ -52,3 +52,23 @@ def test_schema_and_basic_persistence(tmp_path):
     assert duplicate_id == item_id
     assert len(rows) == 1
     assert "Mirror" in rows[0]["attribution_json"]
+
+
+def test_list_items_by_ids_accepts_duplicate_ids(tmp_path):
+    conn = connect(tmp_path / "daily.sqlite3")
+    migrate(conn)
+    item_id = repository.upsert_source_item(
+        conn,
+        SourceItem(
+            title="Duplicate IDs should not break lookup",
+            url="https://example.com/duplicate",
+            source_name="Example",
+            source_channel="industry",
+            published_at=datetime.now(timezone.utc),
+        ),
+    )
+
+    rows = repository.list_items_by_ids(conn, [item_id, item_id])
+
+    assert len(rows) == 1
+    assert rows[0]["id"] == item_id
