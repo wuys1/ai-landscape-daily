@@ -1,0 +1,2617 @@
+{
+  "date": "2026-08-15",
+  "topics": [
+    {
+      "slug": "ai",
+      "name": "AI 基础设施与芯片",
+      "summary": "「AI 基础设施与芯片」今日由 15 条信号支撑，覆盖官方公告、中文媒体、论文、GitHub渠道。",
+      "score": 97.88,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 20.0,
+        "frequency_score": 15.0,
+        "freshness_score": 12.88,
+        "momentum_score": 15.0,
+        "community_score": 10.0
+      },
+      "channel_counts": {
+        "official": 8,
+        "chinese_media": 1,
+        "papers": 3,
+        "github": 3
+      },
+      "tags": [
+        "智能体",
+        "开发者工具",
+        "AI编程",
+        "AI+教育",
+        "大赛",
+        "加速卡"
+      ],
+      "evidence_item_ids": [
+        2,
+        24,
+        28,
+        35,
+        36,
+        43,
+        46,
+        49,
+        63,
+        70,
+        77,
+        83,
+        94,
+        98,
+        101
+      ]
+    },
+    {
+      "slug": "9791438281",
+      "name": "开源模型与开发者工具",
+      "summary": "「开源模型与开发者工具」今日由 7 条信号支撑，覆盖中文媒体、论文、GitHub渠道。",
+      "score": 88.87,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 22.5,
+        "cross_source_score": 15.0,
+        "frequency_score": 15.0,
+        "freshness_score": 12.62,
+        "momentum_score": 13.75,
+        "community_score": 10.0
+      },
+      "channel_counts": {
+        "chinese_media": 1,
+        "papers": 1,
+        "github": 5
+      },
+      "tags": [
+        "AI",
+        "开源",
+        "开源模型",
+        "GLM-5.3",
+        "安全模型",
+        "编程"
+      ],
+      "evidence_item_ids": [
+        64,
+        87,
+        90,
+        93,
+        95,
+        103,
+        104
+      ]
+    },
+    {
+      "slug": "13012b6ccc",
+      "name": "安全、治理与政策",
+      "summary": "「安全、治理与政策」今日由 18 条信号支撑，覆盖官方公告、产业媒体、GitHub渠道。",
+      "score": 88.5,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 15.0,
+        "frequency_score": 15.0,
+        "freshness_score": 9.75,
+        "momentum_score": 13.75,
+        "community_score": 10.0
+      },
+      "channel_counts": {
+        "official": 11,
+        "industry": 5,
+        "github": 2
+      },
+      "tags": [
+        "政策",
+        "网络安全",
+        "隐私",
+        "AI治理",
+        "安全",
+        "车牌识别"
+      ],
+      "evidence_item_ids": [
+        6,
+        7,
+        8,
+        11,
+        12,
+        16,
+        19,
+        21,
+        23,
+        27,
+        30,
+        50,
+        53,
+        56,
+        57,
+        58,
+        91,
+        92
+      ]
+    },
+    {
+      "slug": "0af72a3aea",
+      "name": "企业应用与生产力",
+      "summary": "「企业应用与生产力」今日由 15 条信号支撑，覆盖官方公告、产业媒体、中文媒体、GitHub渠道。",
+      "score": 82.62,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 20.0,
+        "frequency_score": 15.0,
+        "freshness_score": 12.59,
+        "momentum_score": 10.01,
+        "community_score": 0.02
+      },
+      "channel_counts": {
+        "official": 12,
+        "industry": 1,
+        "chinese_media": 1,
+        "github": 1
+      },
+      "tags": [
+        "企业应用",
+        "智能体",
+        "AI原生",
+        "AI办公",
+        "MAU",
+        "办公独立端"
+      ],
+      "evidence_item_ids": [
+        4,
+        5,
+        9,
+        10,
+        15,
+        17,
+        20,
+        25,
+        29,
+        31,
+        33,
+        45,
+        52,
+        65,
+        100
+      ]
+    },
+    {
+      "slug": "9f436cf796",
+      "name": "多模态与视频生成",
+      "summary": "「多模态与视频生成」今日由 8 条信号支撑，覆盖官方公告、论文、GitHub渠道。",
+      "score": 81.11,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 15.0,
+        "frequency_score": 15.0,
+        "freshness_score": 10.31,
+        "momentum_score": 11.1,
+        "community_score": 4.7
+      },
+      "channel_counts": {
+        "official": 2,
+        "papers": 4,
+        "github": 2
+      },
+      "tags": [
+        "视频生成",
+        "世界模型",
+        "扩散模型",
+        "潜在空间",
+        "自编码器",
+        "语义表示"
+      ],
+      "evidence_item_ids": [
+        39,
+        41,
+        72,
+        75,
+        78,
+        80,
+        97,
+        102
+      ]
+    },
+    {
+      "slug": "609405e232",
+      "name": "科学、医疗与教育应用",
+      "summary": "「科学、医疗与教育应用」今日由 12 条信号支撑，覆盖官方公告、产业媒体、论文、GitHub渠道。",
+      "score": 80.32,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 20.0,
+        "frequency_score": 15.0,
+        "freshness_score": 10.31,
+        "momentum_score": 10.0,
+        "community_score": 0.01
+      },
+      "channel_counts": {
+        "official": 4,
+        "industry": 2,
+        "papers": 5,
+        "github": 1
+      },
+      "tags": [
+        "教育",
+        "医疗AI",
+        "AI科学家",
+        "全模态",
+        "科学发现",
+        "智能体"
+      ],
+      "evidence_item_ids": [
+        26,
+        32,
+        44,
+        48,
+        51,
+        54,
+        71,
+        76,
+        79,
+        84,
+        86,
+        96
+      ]
+    },
+    {
+      "slug": "2853dfd3b5",
+      "name": "机器人与具身智能",
+      "summary": "「机器人与具身智能」今日由 3 条信号支撑，覆盖产业媒体、论文、GitHub渠道。",
+      "score": 78.56,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 22.5,
+        "cross_source_score": 15.0,
+        "frequency_score": 9.0,
+        "freshness_score": 10.31,
+        "momentum_score": 11.75,
+        "community_score": 10.0
+      },
+      "channel_counts": {
+        "industry": 1,
+        "papers": 1,
+        "github": 1
+      },
+      "tags": [
+        "机器人",
+        "人形机器人",
+        "运动跟踪",
+        "基准测试",
+        "评估指标",
+        "具身智能"
+      ],
+      "evidence_item_ids": [
+        59,
+        73,
+        99
+      ]
+    },
+    {
+      "slug": "057463b3a8",
+      "name": "大模型与推理能力",
+      "summary": "「大模型与推理能力」今日由 8 条信号支撑，覆盖官方公告、产业媒体、论文渠道。",
+      "score": 74.06,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 15.0,
+        "frequency_score": 15.0,
+        "freshness_score": 10.31,
+        "momentum_score": 8.75,
+        "community_score": 0.0
+      },
+      "channel_counts": {
+        "official": 1,
+        "industry": 1,
+        "papers": 6
+      },
+      "tags": [
+        "扩散模型",
+        "在线学习",
+        "概率预测",
+        "Boosting",
+        "对抗性",
+        "稀疏自编码器"
+      ],
+      "evidence_item_ids": [
+        1,
+        55,
+        74,
+        81,
+        82,
+        85,
+        88,
+        89
+      ]
+    },
+    {
+      "slug": "b73e21330f",
+      "name": "投融资与产业竞争",
+      "summary": "「投融资与产业竞争」今日由 2 条信号支撑，覆盖官方公告、中文媒体渠道。",
+      "score": 54.97,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 10.0,
+        "frequency_score": 6.0,
+        "freshness_score": 9.47,
+        "momentum_score": 4.5,
+        "community_score": 0.0
+      },
+      "channel_counts": {
+        "official": 1,
+        "chinese_media": 1
+      },
+      "tags": [
+        "端侧算力",
+        "Agent芯片",
+        "融资",
+        "量产",
+        "高管任命",
+        "商业化"
+      ],
+      "evidence_item_ids": [
+        3,
+        69
+      ]
+    },
+    {
+      "slug": "3dc223f02e",
+      "name": "数据、搜索与内容生态",
+      "summary": "「数据、搜索与内容生态」今日由 6 条信号支撑，覆盖官方公告渠道。",
+      "score": 54.25,
+      "trend": "rising",
+      "score_components": {
+        "source_weight": 25.0,
+        "cross_source_score": 5.0,
+        "frequency_score": 15.0,
+        "freshness_score": 3.0,
+        "momentum_score": 6.25,
+        "community_score": 0.0
+      },
+      "channel_counts": {
+        "official": 6
+      },
+      "tags": [
+        "搜索",
+        "AI",
+        "Pixel",
+        "Gemini",
+        "Android",
+        "NotebookLM"
+      ],
+      "evidence_item_ids": [
+        34,
+        37,
+        38,
+        40,
+        42,
+        47
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 1,
+      "item_id": 98,
+      "topic_slug": "ai",
+      "title": "github/awesome-copilot",
+      "heat_score": 116.88,
+      "tags": [
+        "AI 编程",
+        "开发者工具",
+        "智能体",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "GitHub Trending 上出现了一个名为 awesome-copilot 的社区维护资源列表，汇集了关于 GitHub Copilot 的指令、智能体、技能和配置，旨在帮助用户更高效地使用该工具。",
+      "source_url": "https://github.com/github/awesome-copilot"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 2,
+      "item_id": 94,
+      "topic_slug": "ai",
+      "title": "semantica-agi/semantica",
+      "heat_score": 116.88,
+      "tags": [
+        "图原生",
+        "上下文管理",
+        "AI系统",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "semantica-agi/semantica 是一个图原生基础设施，旨在为上下文和可问责的 AI 系统提供支持。",
+      "source_url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 3,
+      "item_id": 101,
+      "topic_slug": "ai",
+      "title": "NVIDIA-NeMo/Automodel",
+      "heat_score": 115.22,
+      "tags": [
+        "大模型",
+        "分布式训练",
+        "开源工具",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "NVIDIA 发布 NeMo Automodel，一个基于 Pytorch 的分布式原生训练库，支持 LLM/VLM，并原生集成 Hugging Face。",
+      "source_url": "https://github.com/NVIDIA-NeMo/Automodel"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 4,
+      "item_id": 2,
+      "topic_slug": "ai",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "heat_score": 107.88,
+      "tags": [
+        "产品",
+        "性能提升",
+        "API",
+        "Product"
+      ],
+      "summary": "OpenAI 预览了新的 API 服务层级 Ultrafast，该层级运行 GPT-5.6 Sol，速度提升高达 14 倍，由 Cerebras 提供支持，每秒可输出多达 750 个 token。",
+      "source_url": "https://openai.com/index/previewing-ultrafast"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 5,
+      "item_id": 35,
+      "topic_slug": "ai",
+      "title": "Inside our 353,000-person vibe coding course",
+      "heat_score": 107.88,
+      "tags": [
+        "AI编程",
+        "在线课程",
+        "开发者工具",
+        "Gemini models",
+        "Google Cloud",
+        "Developer tools"
+      ],
+      "summary": "Google AI 博客发布了一篇关于其35.3万人参与的“vibe coding”课程的文章，展示了AI辅助编程的普及趋势。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 6,
+      "item_id": 24,
+      "topic_slug": "ai",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "heat_score": 107.88,
+      "tags": [
+        "实时语音",
+        "低延迟架构",
+        "工程实践",
+        "Engineering"
+      ],
+      "summary": "OpenAI 在六个月内构建了 GPT-Live 实时语音系统，采用无轮次语音模型和低延迟架构，实现了更快速、自然的连续语音交互。",
+      "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 7,
+      "item_id": 28,
+      "topic_slug": "ai",
+      "title": "Building abundant intelligence",
+      "heat_score": 107.88,
+      "tags": [
+        "全栈",
+        "能力提升",
+        "成本降低",
+        "Company"
+      ],
+      "summary": "OpenAI 提出全栈方法，旨在提升先进 AI 的能力、降低成本并扩大其应用范围。",
+      "source_url": "https://openai.com/index/building-abundant-intelligence"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 8,
+      "item_id": 36,
+      "topic_slug": "ai",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "heat_score": 107.88,
+      "tags": [
+        "智能体",
+        "开发者工具",
+        "模型更新",
+        "Developer tools",
+        "AI"
+      ],
+      "summary": "Google 发布 Gemini API 的 Managed Agents 更新，支持 Gemini 3.6 Flash 模型，并引入 hooks 和触发器功能，增强智能体的自动化能力。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 9,
+      "item_id": 43,
+      "topic_slug": "ai",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "heat_score": 107.88,
+      "tags": [
+        "智能体",
+        "开发者工具",
+        "后台任务",
+        "MCP",
+        "Developer tools",
+        "AI"
+      ],
+      "summary": "Google 在 Gemini API 中扩展了托管智能体功能，新增后台任务和远程 MCP 支持，旨在提升智能体的自动化能力和集成灵活性。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 10,
+      "item_id": 46,
+      "topic_slug": "ai",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "heat_score": 107.88,
+      "tags": [
+        "全栈AI",
+        "开发者工具",
+        "Developer tools",
+        "AI"
+      ],
+      "summary": "Google AI 专家解释了全栈AI基础设施的概念，涵盖从硬件到应用层的完整技术栈，强调其在AI开发中的重要性。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 11,
+      "item_id": 49,
+      "topic_slug": "ai",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "heat_score": 107.88,
+      "tags": [
+        "数据中心",
+        "投资",
+        "社区支持",
+        "Global Network",
+        "Creating opportunity",
+        "AI"
+      ],
+      "summary": "Google 宣布将在2026至2027年间投资15亿美元，扩建位于阿拉巴马州杰克逊县的数据中心园区，该园区自2019年起运营，基于前工业用地改造。",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 12,
+      "item_id": 104,
+      "topic_slug": "9791438281",
+      "title": "exo-explore/exo",
+      "heat_score": 107.87,
+      "tags": [
+        "本地部署",
+        "AI",
+        "开源",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "exo-explore/exo 项目在 GitHub 上 trending，旨在本地运行前沿 AI 模型。",
+      "source_url": "https://github.com/exo-explore/exo"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 13,
+      "item_id": 103,
+      "topic_slug": "9791438281",
+      "title": "volcengine/OpenViking",
+      "heat_score": 107.87,
+      "tags": [
+        "AI智能体",
+        "上下文数据库",
+        "开源",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "火山引擎开源了OpenViking，一个面向AI智能体的自进化上下文数据库，统一了智能体记忆、知识RAG和技能。",
+      "source_url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 14,
+      "item_id": 93,
+      "topic_slug": "9791438281",
+      "title": "github/spec-kit",
+      "heat_score": 107.87,
+      "tags": [
+        "规范驱动开发",
+        "开发者工具",
+        "AI",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "GitHub 趋势项目 spec-kit 发布，旨在帮助开发者入门规范驱动开发（Spec-Driven Development），提供相关工具集。",
+      "source_url": "https://github.com/github/spec-kit"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 15,
+      "item_id": 92,
+      "topic_slug": "13012b6ccc",
+      "title": "smicallef/spiderfoot",
+      "heat_score": 107.5,
+      "tags": [
+        "开源情报",
+        "威胁情报",
+        "攻击面",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "SpiderFoot 是一个自动化 OSINT 工具，用于威胁情报和攻击面映射。",
+      "source_url": "https://github.com/smicallef/spiderfoot"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 16,
+      "item_id": 91,
+      "topic_slug": "13012b6ccc",
+      "title": "megadose/holehe",
+      "heat_score": 107.5,
+      "tags": [
+        "邮箱检测",
+        "隐私",
+        "安全工具",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "holehe 是一个开源工具，用于检查邮箱是否在 Twitter、Instagram 等网站上注册，并通过忘记密码功能获取相关信息。",
+      "source_url": "https://github.com/megadose/holehe"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 17,
+      "item_id": 70,
+      "topic_slug": "ai",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "heat_score": 105.88,
+      "tags": [
+        "智能体",
+        "工作流优化",
+        "长周期任务",
+        "自动设计",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "本文提出AutoDesign框架，用于长周期智能体设计任务，通过元优化器指导代码智能体递归改进工作流。在学术论文转海报任务中，AutoDesign在PosterBench上得分78.32，超过Claude Design 7.45分，且集成学习到的DesignHarness平均提升12.4%性能，成本低于3美元。",
+      "source_url": "http://arxiv.org/abs/2608.13560v1"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 18,
+      "item_id": 77,
+      "topic_slug": "ai",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "heat_score": 105.88,
+      "tags": [
+        "AI编程",
+        "评测基准",
+        "命令执行",
+        "智能体",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "summary": "论文《QuoteBench》指出，LLM 编程智能体的命令执行分数可能掩盖生成与执行之间的失败。通过引入额外解析器，同一回复的成功率下降 55.4-73.2 个百分点，而披露边界后部分配置可恢复 30.4-60.7 个百分点。GPT-5.6-sol 的匹配分数差距仅为 -3.6，但实际损害达 -64.3，补偿为 +60.7。研究建议评测应报告模型配置、生成契约、执行路径等，而非仅依赖匹配分数。",
+      "source_url": "http://arxiv.org/abs/2608.13547v1"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 19,
+      "item_id": 83,
+      "topic_slug": "ai",
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "heat_score": 105.88,
+      "tags": [
+        "代码生成",
+        "形式化验证",
+        "基准测试",
+        "AI智能体",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "summary": "Vero 是首个在仓库级别评估 AI 智能体联合实现与证明合成能力的基准，包含 43 个多模块实例，覆盖 Python、Dafny、Verus 和 Coq 等语言。当前最强智能体仅能完全解决 27/43 个实例，表明在仓库级验证代码生成方面仍有显著差距。",
+      "source_url": "http://arxiv.org/abs/2608.13522v1"
+    },
+    {
+      "scope": "overall",
+      "channel": null,
+      "rank": 20,
+      "item_id": 63,
+      "topic_slug": "ai",
+      "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
+      "heat_score": 104.88,
+      "tags": [
+        "AI+教育",
+        "大赛",
+        "加速卡",
+        "资讯",
+        "太初元碁"
+      ],
+      "summary": "太初元碁助力国家级“AI+教育”大赛，开启“AI+加速卡模型适配赛道”招募。",
+      "source_url": "https://www.qbitai.com/2026/08/473149.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 1,
+      "item_id": 98,
+      "topic_slug": "ai",
+      "title": "github/awesome-copilot",
+      "heat_score": 116.88,
+      "tags": [
+        "AI 编程",
+        "开发者工具",
+        "智能体",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "GitHub Trending 上出现了一个名为 awesome-copilot 的社区维护资源列表，汇集了关于 GitHub Copilot 的指令、智能体、技能和配置，旨在帮助用户更高效地使用该工具。",
+      "source_url": "https://github.com/github/awesome-copilot"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 2,
+      "item_id": 94,
+      "topic_slug": "ai",
+      "title": "semantica-agi/semantica",
+      "heat_score": 116.88,
+      "tags": [
+        "图原生",
+        "上下文管理",
+        "AI系统",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "semantica-agi/semantica 是一个图原生基础设施，旨在为上下文和可问责的 AI 系统提供支持。",
+      "source_url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 3,
+      "item_id": 101,
+      "topic_slug": "ai",
+      "title": "NVIDIA-NeMo/Automodel",
+      "heat_score": 115.22,
+      "tags": [
+        "大模型",
+        "分布式训练",
+        "开源工具",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "NVIDIA 发布 NeMo Automodel，一个基于 Pytorch 的分布式原生训练库，支持 LLM/VLM，并原生集成 Hugging Face。",
+      "source_url": "https://github.com/NVIDIA-NeMo/Automodel"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 4,
+      "item_id": 104,
+      "topic_slug": "9791438281",
+      "title": "exo-explore/exo",
+      "heat_score": 107.87,
+      "tags": [
+        "本地部署",
+        "AI",
+        "开源",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "exo-explore/exo 项目在 GitHub 上 trending，旨在本地运行前沿 AI 模型。",
+      "source_url": "https://github.com/exo-explore/exo"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 5,
+      "item_id": 103,
+      "topic_slug": "9791438281",
+      "title": "volcengine/OpenViking",
+      "heat_score": 107.87,
+      "tags": [
+        "AI智能体",
+        "上下文数据库",
+        "开源",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "火山引擎开源了OpenViking，一个面向AI智能体的自进化上下文数据库，统一了智能体记忆、知识RAG和技能。",
+      "source_url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 6,
+      "item_id": 93,
+      "topic_slug": "9791438281",
+      "title": "github/spec-kit",
+      "heat_score": 107.87,
+      "tags": [
+        "规范驱动开发",
+        "开发者工具",
+        "AI",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "GitHub 趋势项目 spec-kit 发布，旨在帮助开发者入门规范驱动开发（Spec-Driven Development），提供相关工具集。",
+      "source_url": "https://github.com/github/spec-kit"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 7,
+      "item_id": 92,
+      "topic_slug": "13012b6ccc",
+      "title": "smicallef/spiderfoot",
+      "heat_score": 107.5,
+      "tags": [
+        "开源情报",
+        "威胁情报",
+        "攻击面",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "SpiderFoot 是一个自动化 OSINT 工具，用于威胁情报和攻击面映射。",
+      "source_url": "https://github.com/smicallef/spiderfoot"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 8,
+      "item_id": 91,
+      "topic_slug": "13012b6ccc",
+      "title": "megadose/holehe",
+      "heat_score": 107.5,
+      "tags": [
+        "邮箱检测",
+        "隐私",
+        "安全工具",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "holehe 是一个开源工具，用于检查邮箱是否在 Twitter、Instagram 等网站上注册，并通过忘记密码功能获取相关信息。",
+      "source_url": "https://github.com/megadose/holehe"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 9,
+      "item_id": 90,
+      "topic_slug": "9791438281",
+      "title": "cactus-compute/needle",
+      "heat_score": 98.01,
+      "tags": [
+        "端侧模型",
+        "小模型",
+        "开源",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "cactus-compute/needle 是一个仅14MB的基础模型，专为手机、可穿戴设备、智能家居和机器人等小型设备设计。",
+      "source_url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 10,
+      "item_id": 95,
+      "topic_slug": "9791438281",
+      "title": "unslothai/unsloth",
+      "heat_score": 97.9,
+      "tags": [
+        "AI",
+        "LLM",
+        "智能体",
+        "机器学习",
+        "本地训练",
+        "ai"
+      ],
+      "summary": "unslothai/unsloth 发布了本地 UI，用于运行和训练 LLM 及扩散模型，支持 Qwen3.8、Kimi K3、MiniMax-H3、Gemma 4、DeepSeek-V4、FLUX 等模型。",
+      "source_url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 11,
+      "item_id": 99,
+      "topic_slug": "2853dfd3b5",
+      "title": "newton-physics/newton",
+      "heat_score": 97.56,
+      "tags": [
+        "物理仿真",
+        "开源",
+        "GPU加速",
+        "机器人",
+        "ai",
+        "llm"
+      ],
+      "summary": "newton-physics/newton 是一个基于 NVIDIA Warp 的开源 GPU 加速物理仿真引擎，面向机器人学家和仿真研究人员。",
+      "source_url": "https://github.com/newton-physics/newton"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 12,
+      "item_id": 102,
+      "topic_slug": "9f436cf796",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "heat_score": 97.14,
+      "tags": [
+        "视频生成",
+        "AI工作流",
+        "自动化",
+        "开源工具",
+        "ai",
+        "llm"
+      ],
+      "summary": "MoneyPrinterTurbo 是一个开源项目，利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。该项目在 GitHub Trending 上受到关注，展示了 AI 在内容创作领域的应用潜力。",
+      "source_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 13,
+      "item_id": 100,
+      "topic_slug": "0af72a3aea",
+      "title": "hugohe3/ppt-master",
+      "heat_score": 91.65,
+      "tags": [
+        "AI演示文稿",
+        "PPT生成",
+        "自动化办公",
+        "ai",
+        "llm",
+        "agents"
+      ],
+      "summary": "ppt-master 是一个AI工具，能将文档或主题转化为原生的PowerPoint演示文稿，支持原生形状、过渡动画、数据图表、表格、音频旁白以及自定义模板。",
+      "source_url": "https://github.com/hugohe3/ppt-master"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 14,
+      "item_id": 97,
+      "topic_slug": "9f436cf796",
+      "title": "Lightricks/LTX-2",
+      "heat_score": 90.13,
+      "tags": [
+        "视频生成",
+        "音频-视频",
+        "推理",
+        "LoRA训练",
+        "开源",
+        "ai"
+      ],
+      "summary": "Lightricks 发布了 LTX-2 的官方 Python 推理和 LoRA 训练包，支持音频-视频生成模型。",
+      "source_url": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "scope": "channel",
+      "channel": "github",
+      "rank": 15,
+      "item_id": 96,
+      "topic_slug": "609405e232",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "heat_score": 89.33,
+      "tags": [
+        "AI智能体",
+        "科学技能库",
+        "开源工具",
+        "科研应用",
+        "ai",
+        "llm"
+      ],
+      "summary": "K-Dense-AI 发布 scientific-agent-skills，一个将 AI 智能体转化为 AI 科学家的技能库，包含 161 个验证技能和 100+ 科学数据库，覆盖生物、化学、医学和药物发现，兼容多种主流 AI 工具。",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 1,
+      "item_id": 2,
+      "topic_slug": "ai",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "heat_score": 107.88,
+      "tags": [
+        "产品",
+        "性能提升",
+        "API",
+        "Product"
+      ],
+      "summary": "OpenAI 预览了新的 API 服务层级 Ultrafast，该层级运行 GPT-5.6 Sol，速度提升高达 14 倍，由 Cerebras 提供支持，每秒可输出多达 750 个 token。",
+      "source_url": "https://openai.com/index/previewing-ultrafast"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 2,
+      "item_id": 35,
+      "topic_slug": "ai",
+      "title": "Inside our 353,000-person vibe coding course",
+      "heat_score": 107.88,
+      "tags": [
+        "AI编程",
+        "在线课程",
+        "开发者工具",
+        "Gemini models",
+        "Google Cloud",
+        "Developer tools"
+      ],
+      "summary": "Google AI 博客发布了一篇关于其35.3万人参与的“vibe coding”课程的文章，展示了AI辅助编程的普及趋势。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 3,
+      "item_id": 24,
+      "topic_slug": "ai",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "heat_score": 107.88,
+      "tags": [
+        "实时语音",
+        "低延迟架构",
+        "工程实践",
+        "Engineering"
+      ],
+      "summary": "OpenAI 在六个月内构建了 GPT-Live 实时语音系统，采用无轮次语音模型和低延迟架构，实现了更快速、自然的连续语音交互。",
+      "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 4,
+      "item_id": 28,
+      "topic_slug": "ai",
+      "title": "Building abundant intelligence",
+      "heat_score": 107.88,
+      "tags": [
+        "全栈",
+        "能力提升",
+        "成本降低",
+        "Company"
+      ],
+      "summary": "OpenAI 提出全栈方法，旨在提升先进 AI 的能力、降低成本并扩大其应用范围。",
+      "source_url": "https://openai.com/index/building-abundant-intelligence"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 5,
+      "item_id": 36,
+      "topic_slug": "ai",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "heat_score": 107.88,
+      "tags": [
+        "智能体",
+        "开发者工具",
+        "模型更新",
+        "Developer tools",
+        "AI"
+      ],
+      "summary": "Google 发布 Gemini API 的 Managed Agents 更新，支持 Gemini 3.6 Flash 模型，并引入 hooks 和触发器功能，增强智能体的自动化能力。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 6,
+      "item_id": 43,
+      "topic_slug": "ai",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "heat_score": 107.88,
+      "tags": [
+        "智能体",
+        "开发者工具",
+        "后台任务",
+        "MCP",
+        "Developer tools",
+        "AI"
+      ],
+      "summary": "Google 在 Gemini API 中扩展了托管智能体功能，新增后台任务和远程 MCP 支持，旨在提升智能体的自动化能力和集成灵活性。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 7,
+      "item_id": 46,
+      "topic_slug": "ai",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "heat_score": 107.88,
+      "tags": [
+        "全栈AI",
+        "开发者工具",
+        "Developer tools",
+        "AI"
+      ],
+      "summary": "Google AI 专家解释了全栈AI基础设施的概念，涵盖从硬件到应用层的完整技术栈，强调其在AI开发中的重要性。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 8,
+      "item_id": 49,
+      "topic_slug": "ai",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "heat_score": 107.88,
+      "tags": [
+        "数据中心",
+        "投资",
+        "社区支持",
+        "Global Network",
+        "Creating opportunity",
+        "AI"
+      ],
+      "summary": "Google 宣布将在2026至2027年间投资15亿美元，扩建位于阿拉巴马州杰克逊县的数据中心园区，该园区自2019年起运营，基于前工业用地改造。",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 9,
+      "item_id": 7,
+      "topic_slug": "13012b6ccc",
+      "title": "Daybreak models are now available on AWS",
+      "heat_score": 98.5,
+      "tags": [
+        "产品发布",
+        "企业安全",
+        "云服务",
+        "Product"
+      ],
+      "summary": "OpenAI 与 AWS 合作，通过 Amazon Bedrock 提供 Daybreak 网络安全能力，以支持企业安全流程。",
+      "source_url": "https://openai.com/index/daybreak-models-are-now-available-on-aws"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 10,
+      "item_id": 6,
+      "topic_slug": "13012b6ccc",
+      "title": "Testing ads in ChatGPT",
+      "heat_score": 98.5,
+      "tags": [
+        "广告",
+        "隐私保护",
+        "用户控制",
+        "Company"
+      ],
+      "summary": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，同时明确标注广告、保证答案独立性、加强隐私保护并提供用户控制。",
+      "source_url": "https://openai.com/index/testing-ads-in-chatgpt"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 11,
+      "item_id": 8,
+      "topic_slug": "13012b6ccc",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "heat_score": 98.5,
+      "tags": [
+        "AI基础设施",
+        "政策",
+        "美国",
+        "Global Affairs"
+      ],
+      "summary": "OpenAI致信得克萨斯州州长Greg Abbott，承诺在得州建设负责任的人工智能基础设施，支持可靠、透明的增长，以惠及得州民众。",
+      "source_url": "https://openai.com/index/responsible-ai-infrastructure-texas"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 12,
+      "item_id": 12,
+      "topic_slug": "13012b6ccc",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "heat_score": 98.5,
+      "tags": [
+        "网络安全",
+        "漏洞研究",
+        "安全测试",
+        "Security"
+      ],
+      "summary": "OpenAI 推出网络安全专用模型 GPT-5.6-Cyber，通过 Daybreak Red 平台向授权研究人员开放，用于漏洞研究、利用验证和安全测试。",
+      "source_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 13,
+      "item_id": 11,
+      "topic_slug": "13012b6ccc",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "heat_score": 98.5,
+      "tags": [
+        "网络安全",
+        "AI治理",
+        "合作伙伴",
+        "Security"
+      ],
+      "summary": "OpenAI 宣布，经批准的 Daybreak 合作伙伴可使用其前沿网络模型，为客户提供授权且受治理的网络安全服务。",
+      "source_url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 14,
+      "item_id": 16,
+      "topic_slug": "13012b6ccc",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "heat_score": 98.5,
+      "tags": [
+        "网络安全",
+        "安全评估",
+        "安全控制",
+        "Security"
+      ],
+      "summary": "OpenAI 发布了针对 Astra 的初步网络安全评估，并介绍了加强安全防护和控制措施的具体步骤，以应对关键网络能力的前沿挑战。",
+      "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 15,
+      "item_id": 19,
+      "topic_slug": "13012b6ccc",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "heat_score": 98.5,
+      "tags": [
+        "青少年心理健康",
+        "负责任AI",
+        "合作",
+        "Company"
+      ],
+      "summary": "OpenAI与美国心理学会合作，推进基于证据的指导、资源和保障措施，以促进负责任的AI使用和青少年心理健康。",
+      "source_url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 16,
+      "item_id": 21,
+      "topic_slug": "13012b6ccc",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "heat_score": 98.5,
+      "tags": [
+        "安全",
+        "模型评估",
+        "第三方测试",
+        "Security"
+      ],
+      "summary": "OpenAI 就近期涉及第三方网络安全评估的事件进行说明，并宣布新的保障措施，以强化 AI 模型测试与评估流程。",
+      "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 17,
+      "item_id": 23,
+      "topic_slug": "13012b6ccc",
+      "title": "Apple is getting this wrong",
+      "heat_score": 98.5,
+      "tags": [
+        "法律诉讼",
+        "企业争议",
+        "Company"
+      ],
+      "summary": "OpenAI回应苹果的诉讼，称其指控毫无根据，并纠正关于员工的错误说法，同时公布相关消息记录以澄清事实。",
+      "source_url": "https://openai.com/index/apple-is-getting-this-wrong"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 18,
+      "item_id": 27,
+      "topic_slug": "13012b6ccc",
+      "title": "Advancing responsible AI across Europe",
+      "heat_score": 98.5,
+      "tags": [
+        "AI治理",
+        "欧洲",
+        "安全",
+        "Global Affairs"
+      ],
+      "summary": "OpenAI 发布文章，阐述其在欧洲推进负责任AI的实践，涵盖安全、安保、透明度和来源追溯，并承诺随着欧盟AI法案的推进继续相关工作。",
+      "source_url": "https://openai.com/index/advancing-responsible-ai-across-europe"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 19,
+      "item_id": 30,
+      "topic_slug": "13012b6ccc",
+      "title": "Disrupting a Criminal Scam Operation",
+      "heat_score": 98.5,
+      "tags": [
+        "诈骗",
+        "安全治理",
+        "滥用防范"
+      ],
+      "summary": "OpenAI 披露已瓦解一个位于柬埔寨的诈骗团伙，该团伙利用 ChatGPT 支持投资、婚恋、赌博及冒充等诈骗活动。",
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 20,
+      "item_id": 31,
+      "topic_slug": "0af72a3aea",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "heat_score": 92.62,
+      "tags": [
+        "电子表格",
+        "数据可视化",
+        "AI 增强",
+        "Google Workspace",
+        "Google One",
+        "AI"
+      ],
+      "summary": "Google AI 博客展示了 Sheets canvas 功能，该功能通过视频演示将电子表格数据转化为动态可视化内容，提升数据呈现和交互体验。",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 21,
+      "item_id": 4,
+      "topic_slug": "0af72a3aea",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "heat_score": 92.62,
+      "tags": [
+        "企业应用",
+        "智能体",
+        "AI 采用",
+        "Company"
+      ],
+      "summary": "OpenAI 研究显示，企业正从辅助工具转向执行型智能体，采用 ChatGPT 和 Codex 等产品，前沿企业在 AI 采用上领先。",
+      "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 22,
+      "item_id": 5,
+      "topic_slug": "0af72a3aea",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "heat_score": 92.62,
+      "tags": [
+        "AI原生",
+        "运营智能",
+        "产品开发"
+      ],
+      "summary": "RingCentral 展示了如何利用 ChatGPT Work 和 Codex 加速 AI 产品开发，并在工程与运营中集中化运营智能，构建 AI 原生的工作流程。",
+      "source_url": "https://openai.com/index/ringcentral"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 23,
+      "item_id": 10,
+      "topic_slug": "0af72a3aea",
+      "title": "What building an AI-native finance function taught me",
+      "heat_score": 92.62,
+      "tags": [
+        "AI原生",
+        "财务职能",
+        "自动化预测",
+        "AI投资回报率",
+        "Company"
+      ],
+      "summary": "OpenAI首席财务官Sarah Friar分享了构建AI原生财务职能的五条经验，涵盖自动化预测、强化控制及衡量AI投资回报率等方面。",
+      "source_url": "https://openai.com/index/building-an-ai-native-finance-function"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 24,
+      "item_id": 33,
+      "topic_slug": "0af72a3aea",
+      "title": "Evolve your marketing with new AI tools",
+      "heat_score": 92.62,
+      "tags": [
+        "营销",
+        "AI工具",
+        "广告",
+        "Google Ads",
+        "Analytics",
+        "AI"
+      ],
+      "summary": "Google 推出新的 AI 工具，通过 Advisor UI 在 Google Ads 和 Google Analytics 中提供智能建议，帮助营销人员优化广告和数据分析。",
+      "source_url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 25,
+      "item_id": 9,
+      "topic_slug": "0af72a3aea",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "heat_score": 92.62,
+      "tags": [
+        "金融",
+        "效率提升",
+        "AI智能体",
+        "Startup"
+      ],
+      "summary": "Model ML 利用 GPT-5.6 Sol 完成金融工作，从研究分析到生成可编辑、可追溯的 PowerPoint 演示文稿和 Excel 工作簿，显著提升效率。",
+      "source_url": "https://openai.com/index/model-ml"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 26,
+      "item_id": 15,
+      "topic_slug": "0af72a3aea",
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "heat_score": 92.62,
+      "tags": [
+        "营销自动化",
+        "企业应用",
+        "工作流"
+      ],
+      "summary": "Zapier 企业营销团队利用 ChatGPT Work 减少潜在客户漏斗中的流失，构建营销活动资产并自动化报告流程。",
+      "source_url": "https://openai.com/index/zapier"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 27,
+      "item_id": 17,
+      "topic_slug": "0af72a3aea",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "heat_score": 92.62,
+      "tags": [
+        "税务咨询",
+        "生产力提升",
+        "企业应用"
+      ],
+      "summary": "HSP GRUPPE 利用 ChatGPT Enterprise 提升税务咨询的生产力和工作质量，释放更多时间用于客户服务。",
+      "source_url": "https://openai.com/index/hsp-gruppe"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 28,
+      "item_id": 20,
+      "topic_slug": "0af72a3aea",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "heat_score": 92.62,
+      "tags": [
+        "全球采用",
+        "使用趋势",
+        "官方数据",
+        "Company"
+      ],
+      "summary": "OpenAI 发布新数据，展示全球用户如何将 ChatGPT 应用于实际工作，涵盖各国采用率、使用趋势及行为演变。",
+      "source_url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 29,
+      "item_id": 25,
+      "topic_slug": "0af72a3aea",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "heat_score": 92.62,
+      "tags": [
+        "电信",
+        "个性化",
+        "ARPU",
+        "客户留存"
+      ],
+      "summary": "Circles 利用 OpenAI API 和 Codex 构建 AI 原生电信体验，实现 ARPU 提升 22%，客户流失率降低 9%，并显著提升开发效率。",
+      "source_url": "https://openai.com/index/circles"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 30,
+      "item_id": 29,
+      "topic_slug": "0af72a3aea",
+      "title": "Univé builds an AI-ready workforce",
+      "heat_score": 92.62,
+      "tags": [
+        "AI劳动力",
+        "企业转型",
+        "治理",
+        "员工创新"
+      ],
+      "summary": "Univé 通过结合领导力、负责任治理和员工主导的创新，利用 ChatGPT Enterprise 构建了具备 AI 能力的劳动力队伍，实现了工作的大规模转型。",
+      "source_url": "https://openai.com/index/unive"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 31,
+      "item_id": 45,
+      "topic_slug": "0af72a3aea",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "heat_score": 92.62,
+      "tags": [
+        "英国",
+        "生产力",
+        "AI",
+        "UK"
+      ],
+      "summary": "Google AI Blog 发布文章，探讨英国如何通过AI提升生产力，建设AI先锋国家。",
+      "source_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 32,
+      "item_id": 39,
+      "topic_slug": "9f436cf796",
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "heat_score": 91.11,
+      "tags": [
+        "智能眼镜",
+        "多模态交互",
+        "Gemini App",
+        "Android",
+        "Gemini Notebook",
+        "AI"
+      ],
+      "summary": "Galaxy Unpacked 2026 上，Google 展示了 Gemini 在智能眼镜（Gentle Monster、Warby Parker）上的多模态功能，包括识别建筑历史、预订餐厅等。",
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 33,
+      "item_id": 41,
+      "topic_slug": "9f436cf796",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "heat_score": 91.11,
+      "tags": [
+        "视频生成",
+        "AI 智能体",
+        "个性化头像",
+        "Google Workspace",
+        "Google One",
+        "AI"
+      ],
+      "summary": "Google Vids 推出两项更新，支持通过 Gemini 创建、编辑和出演视频，并引入个性化头像功能。",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 34,
+      "item_id": 32,
+      "topic_slug": "609405e232",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "heat_score": 90.32,
+      "tags": [
+        "医疗AI",
+        "临床视频咨询",
+        "多模态",
+        "Google Health",
+        "Google Research",
+        "Google DeepMind"
+      ],
+      "summary": "Google 研究团队在首次研究中展示了其医疗 AI 系统 AMIE 的实时临床视频咨询能力，标志着医疗 AI 在多模态交互方面取得进展。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 35,
+      "item_id": 26,
+      "topic_slug": "609405e232",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "heat_score": 90.32,
+      "tags": [
+        "数学",
+        "理论计算机科学",
+        "研究进展",
+        "Publication"
+      ],
+      "summary": "OpenAI 公布了数学和理论计算机科学领域的十项进展，涵盖几何、密码学和复杂性理论等长期未解问题。",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 36,
+      "item_id": 44,
+      "topic_slug": "609405e232",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "heat_score": 90.32,
+      "tags": [
+        "教育",
+        "AI峰会",
+        "课堂",
+        "Learning & Education",
+        "AI"
+      ],
+      "summary": "Google、纽约就业CEO委员会和Urban Assembly联合举办了AI峰会，150位教育和行业领袖齐聚Google办公室，共同探讨AI在课堂中的未来应用。",
+      "source_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 37,
+      "item_id": 48,
+      "topic_slug": "609405e232",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "heat_score": 90.32,
+      "tags": [
+        "医疗AI",
+        "对话系统",
+        "临床研究",
+        "Google Research",
+        "Google DeepMind",
+        "Health"
+      ],
+      "summary": "Google在《Nature》发表研究，显示其对话式AI系统AMIE在复杂疾病管理方面与初级保健医生表现相当。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 38,
+      "item_id": 1,
+      "topic_slug": "057463b3a8",
+      "title": "The builder’s guide to GPT‑5.6",
+      "heat_score": 84.06,
+      "tags": [
+        "模型选择",
+        "AI智能体",
+        "开发者工具",
+        "Applied AI"
+      ],
+      "summary": "OpenAI 发布 GPT-5.6 构建指南，介绍如何利用新模型和 Responses API 构建更快速、更具成本效益的 AI 智能体，并强调智能模型选择的重要性。",
+      "source_url": "https://openai.com/index/builders-guide-to-gpt-5-6"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 39,
+      "item_id": 3,
+      "topic_slug": "b73e21330f",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "heat_score": 64.97,
+      "tags": [
+        "高管任命",
+        "商业化",
+        "Company"
+      ],
+      "summary": "OpenAI任命Dali Rajic为首席营收官，负责全球营收组织，帮助企业实现AI的全面价值。",
+      "source_url": "https://openai.com/index/dali-rajic-chief-revenue-officer"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 40,
+      "item_id": 34,
+      "topic_slug": "3dc223f02e",
+      "title": "The latest AI news we announced in July 2026",
+      "heat_score": 64.25,
+      "tags": [
+        "AI",
+        "搜索",
+        "Pixel",
+        "Gemini",
+        "Android",
+        "NotebookLM"
+      ],
+      "summary": "Google AI 博客发布了2026年7月的最新AI新闻，重点包括Pixel Drop更新、NotebookLM、Gemini模型及Android相关功能，涉及搜索、艺术文化、教育等多个领域。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 41,
+      "item_id": 38,
+      "topic_slug": "3dc223f02e",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "heat_score": 64.25,
+      "tags": [
+        "搜索",
+        "AI",
+        "晚宴指南",
+        "Search"
+      ],
+      "summary": "Google AI 博客发布文章，介绍利用 Google Search 举办终极晚宴的5种方式，展示 AI 在生活场景中的应用。",
+      "source_url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 42,
+      "item_id": 37,
+      "topic_slug": "3dc223f02e",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "heat_score": 64.25,
+      "tags": [
+        "搜索",
+        "AI模式",
+        "Search",
+        "AI"
+      ],
+      "summary": "Google AI 博客介绍了 AI Mode 在搜索中的五种方式，帮助用户减少在线时间，更多享受现实世界。",
+      "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 43,
+      "item_id": 40,
+      "topic_slug": "3dc223f02e",
+      "title": "Connect more of your apps to Search",
+      "heat_score": 64.25,
+      "tags": [
+        "搜索",
+        "AI",
+        "应用连接",
+        "Search"
+      ],
+      "summary": "Google AI 博客宣布将更多应用连接到 Search，实现连接应用的渲染，增强搜索生态的集成能力。",
+      "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 44,
+      "item_id": 42,
+      "topic_slug": "3dc223f02e",
+      "title": "Celebrating 25 years of visual search innovation",
+      "heat_score": 64.25,
+      "tags": [
+        "视觉搜索",
+        "搜索",
+        "AI",
+        "Search"
+      ],
+      "summary": "Google Images 庆祝视觉搜索创新25周年，其标志被搜索不同图像的插画包围，凸显AI在图像搜索领域的持续演进。",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 45,
+      "item_id": 47,
+      "topic_slug": "3dc223f02e",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "heat_score": 64.25,
+      "tags": [
+        "搜索",
+        "AI",
+        "应用更新",
+        "Search"
+      ],
+      "summary": "Google 宣布对其 Finance 产品进行升级，包括推出新应用，旨在提升用户体验和功能。",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 46,
+      "item_id": 14,
+      "topic_slug": null,
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "heat_score": 45.0,
+      "tags": [],
+      "summary": "来自 OpenAI News 的相关动态：Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+      "source_url": "https://openai.com/index/virgin-atlantic/chatgpt-work"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 47,
+      "item_id": 13,
+      "topic_slug": null,
+      "title": "Premium seats are coming to ChatGPT Business",
+      "heat_score": 45.0,
+      "tags": [
+        "Product"
+      ],
+      "summary": "来自 OpenAI News 的相关动态：Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "source_url": "https://openai.com/index/premium-seats-chatgpt-business"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 48,
+      "item_id": 18,
+      "topic_slug": null,
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "heat_score": 45.0,
+      "tags": [
+        "Product"
+      ],
+      "summary": "来自 OpenAI News 的相关动态：ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "source_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"
+    },
+    {
+      "scope": "channel",
+      "channel": "official",
+      "rank": 49,
+      "item_id": 22,
+      "topic_slug": null,
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "heat_score": 45.0,
+      "tags": [
+        "Product"
+      ],
+      "summary": "来自 OpenAI News 的相关动态：Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "source_url": "https://openai.com/index/learn-teach-chatgpt-work-codex"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 1,
+      "item_id": 70,
+      "topic_slug": "ai",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "heat_score": 105.88,
+      "tags": [
+        "智能体",
+        "工作流优化",
+        "长周期任务",
+        "自动设计",
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "本文提出AutoDesign框架，用于长周期智能体设计任务，通过元优化器指导代码智能体递归改进工作流。在学术论文转海报任务中，AutoDesign在PosterBench上得分78.32，超过Claude Design 7.45分，且集成学习到的DesignHarness平均提升12.4%性能，成本低于3美元。",
+      "source_url": "http://arxiv.org/abs/2608.13560v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 2,
+      "item_id": 77,
+      "topic_slug": "ai",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "heat_score": 105.88,
+      "tags": [
+        "AI编程",
+        "评测基准",
+        "命令执行",
+        "智能体",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "summary": "论文《QuoteBench》指出，LLM 编程智能体的命令执行分数可能掩盖生成与执行之间的失败。通过引入额外解析器，同一回复的成功率下降 55.4-73.2 个百分点，而披露边界后部分配置可恢复 30.4-60.7 个百分点。GPT-5.6-sol 的匹配分数差距仅为 -3.6，但实际损害达 -64.3，补偿为 +60.7。研究建议评测应报告模型配置、生成契约、执行路径等，而非仅依赖匹配分数。",
+      "source_url": "http://arxiv.org/abs/2608.13547v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 3,
+      "item_id": 83,
+      "topic_slug": "ai",
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "heat_score": 105.88,
+      "tags": [
+        "代码生成",
+        "形式化验证",
+        "基准测试",
+        "AI智能体",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "summary": "Vero 是首个在仓库级别评估 AI 智能体联合实现与证明合成能力的基准，包含 43 个多模块实例，覆盖 Python、Dafny、Verus 和 Coq 等语言。当前最强智能体仅能完全解决 27/43 个实例，表明在仓库级验证代码生成方面仍有显著差距。",
+      "source_url": "http://arxiv.org/abs/2608.13522v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 4,
+      "item_id": 87,
+      "topic_slug": "9791438281",
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "heat_score": 96.87,
+      "tags": [
+        "开源模型",
+        "1B参数",
+        "丹麦语",
+        "后训练数据",
+        "基准测试",
+        "cs.CL"
+      ],
+      "summary": "DFM 发布 Mimir v1，一个基于 HRM 架构的 10 亿参数语言模型，仅使用合规后训练数据训练，在英语和丹麦语上表现优异，超越同规模模型并媲美更大模型。",
+      "source_url": "http://arxiv.org/abs/2608.13517v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 5,
+      "item_id": 72,
+      "topic_slug": "9f436cf796",
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "heat_score": 89.11,
+      "tags": [
+        "视频生成",
+        "潜在空间",
+        "自编码器",
+        "语义表示",
+        "时间一致性",
+        "cs.CV"
+      ],
+      "summary": "V-RAE 提出一种视频表示自编码器，利用冻结的视觉基础模型表示构建紧凑的生成潜在空间，通过轻量时间池化模块去除时间冗余并保留语义结构。在 K600 上达到 2.13 rFVD，优于现有大规模预训练视频 VAE；在 UCF101 和 K600 上 gFVD 分别为 117.86 和 19.16，收敛速度提升 6 倍。引入 tFVD 诊断指标，更可靠地反映生成质量。",
+      "source_url": "http://arxiv.org/abs/2608.13556v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 6,
+      "item_id": 75,
+      "topic_slug": "9f436cf796",
+      "title": "PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives",
+      "heat_score": 89.11,
+      "tags": [
+        "世界模型",
+        "基准测试",
+        "智能体",
+        "cs.CV"
+      ],
+      "summary": "PlayWorld 是一个用于评估视频世界模型的新基准，通过多模态智能体玩家与模型交互，在171个场景中测试长期目标下的表现。实验发现现有模型在空间一致性和状态演化方面仍不可靠。",
+      "source_url": "http://arxiv.org/abs/2608.13552v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 7,
+      "item_id": 78,
+      "topic_slug": "9f436cf796",
+      "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+      "heat_score": 89.11,
+      "tags": [
+        "世界模型",
+        "视频生成",
+        "长时程生成",
+        "交互式生成",
+        "扩散模型",
+        "cs.CV"
+      ],
+      "summary": "Alaya-EVOKE 提出了一种交互式世界模型，通过外部化持久世界状态和重新设计教师模型，实现了长时程、开放式的视频生成。其采用相机索引的世界状态库和线性注意力全局状态，使记忆和计算成本随会话长度线性增长，并通过30秒分布匹配目标训练三步学生模型，无需分类器引导。在单块 H200 上，生成 1.5 秒片段仅需 2.11 秒，在 WBench 上达到最先进性能，在 VBench-Long 和 VBench-2.0 上保持竞争力。",
+      "source_url": "http://arxiv.org/abs/2608.13546v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 8,
+      "item_id": 80,
+      "topic_slug": "9f436cf796",
+      "title": "SCULPT: Subtractive Composition for 3D Part Generation",
+      "heat_score": 89.11,
+      "tags": [
+        "3D生成",
+        "部件分解",
+        "扩散模型",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "summary": "SCULPT 提出了一种基于减法合成的 3D 部件生成框架，在结构化潜在空间中迭代联合预测部件与剩余对象，避免分割后处理或加法合成的边界问题，在 PartObjaverse 上达到最先进几何质量，并支持纹理部件分解。",
+      "source_url": "http://arxiv.org/abs/2608.13541v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 9,
+      "item_id": 71,
+      "topic_slug": "609405e232",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "heat_score": 88.32,
+      "tags": [
+        "AI科学家",
+        "全模态",
+        "科学发现",
+        "智能体",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "summary": "OmniScientist 是一个端到端全模态 AI 科学家系统，能够直接从异构原始证据（如图像、信号、音频、视频、3D 结构等）进行多学科研究。系统包含感知层和三个自主智能体（构思、实验、写作），在确定性流程中运行，并内置新颖性、统计有效性和可追溯性检查。在 36 个真实数据案例中，系统全部完成从原始数据到论文的流程，平均得分 6.3，且直接感知相比盲变体在 7 个维度上均更优，胜率 85%。",
+      "source_url": "http://arxiv.org/abs/2608.13558v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 10,
+      "item_id": 76,
+      "topic_slug": "609405e232",
+      "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
+      "heat_score": 88.32,
+      "tags": [
+        "多标签分类",
+        "校准",
+        "凸代理",
+        "Jaccard度量",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "summary": "该论文研究了多标签分类中Jaccard度量的凸校准维度。证明Jaccard损失矩阵非奇异，其精确校准维度介于2^(s-1)和2^s-1之间，意味着精确校准需要指数级预测坐标。同时给出两个多项式维度的近似保证，包括F1到Jaccard的转换和MinHash平方损失代理，后者在任意标签分布下可实现固定加性遗憾容差的多项式维度。",
+      "source_url": "http://arxiv.org/abs/2608.13549v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 11,
+      "item_id": 79,
+      "topic_slug": "609405e232",
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "heat_score": 88.32,
+      "tags": [
+        "语言模型",
+        "教育",
+        "预训练",
+        "知识边界",
+        "cs.CL",
+        "cs.AI"
+      ],
+      "summary": "arXiv 发布论文，介绍 LittleLearner 和 LittleCurriculum，一个基于美国小学课程（五年级以下）的 88B token 预训练语料库和 5B 参数模型，用于在受控教育范围内研究语言模型的知识获取与能力边界。实验表明，后训练和上下文学习能提升已有知识利用，但不会超出范围的能力。",
+      "source_url": "http://arxiv.org/abs/2608.13545v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 12,
+      "item_id": 84,
+      "topic_slug": "609405e232",
+      "title": "Exponential quantum advantage for learning signals with a single qubit",
+      "heat_score": 88.32,
+      "tags": [
+        "量子优势",
+        "单量子比特",
+        "信号学习",
+        "量子传感",
+        "quant-ph",
+        "cs.IT"
+      ],
+      "summary": "该论文展示了将单个可控量子比特与常规传感器耦合，可指数级减少学习经典信号所需的测量次数，并在超导腔-量子比特架构中实验实现了10^7倍的测量减少。该优势基于量子相空间推断（QΨ）理论，适用于傅里叶系数学习、时变信号相关提取等基础传感任务，并有望在暗物质探测和无线通信中应用。",
+      "source_url": "http://arxiv.org/abs/2608.13521v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 13,
+      "item_id": 86,
+      "topic_slug": "609405e232",
+      "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
+      "heat_score": 88.32,
+      "tags": [
+        "临床预测模型",
+        "心房颤动消融",
+        "潜在状态",
+        "不规则时间序列",
+        "cs.LG",
+        "cs.CV"
+      ],
+      "summary": "提出一种干预感知的临床世界模型，用于心脏病学术后结果预测。该模型将患者表示为结构化潜在状态，并通过时间排序的术后事件进行更新，在DECAAF-II数据集上实现了AUROC 0.756和AUPRC 0.777的复发预测性能，且无需随访MRI强度即可预测疤痕范围。",
+      "source_url": "http://arxiv.org/abs/2608.13518v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 14,
+      "item_id": 73,
+      "topic_slug": "2853dfd3b5",
+      "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+      "heat_score": 86.56,
+      "tags": [
+        "人形机器人",
+        "运动跟踪",
+        "基准测试",
+        "评估指标",
+        "cs.RO",
+        "cs.AI"
+      ],
+      "summary": "arXiv 发布 HumanTracker，一个面向人形机器人运动跟踪的基准，包含约153小时的光学运动轨迹，并提出 HumanScore 指标，基于12K运动对训练，能更好地预测人类偏好，揭示接触和稳定性问题。",
+      "source_url": "http://arxiv.org/abs/2608.13555v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 15,
+      "item_id": 74,
+      "topic_slug": "057463b3a8",
+      "title": "Defensive Boosting for Online Probabilistic Forecasting",
+      "heat_score": 82.06,
+      "tags": [
+        "在线学习",
+        "概率预测",
+        "Boosting",
+        "对抗性",
+        "cs.LG",
+        "cs.CC"
+      ],
+      "summary": "本文提出一种防御性提升算法（Defensive Booster），用于在线概率预测，同时获得在线梯度提升和在线弱到强提升的保证，且仅需访问一个弱学习器，效率高，在合成和真实数据流上表现优异。",
+      "source_url": "http://arxiv.org/abs/2608.13554v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 16,
+      "item_id": 81,
+      "topic_slug": "057463b3a8",
+      "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+      "heat_score": 82.06,
+      "tags": [
+        "稀疏自编码器",
+        "可解释性",
+        "自然语言解释",
+        "cs.CL"
+      ],
+      "summary": "SAEVerbalizer 通过将 SAE 解码器方向注入 LLM 表示并微调下游层，直接生成特征的自然语言解释，避免了外部观察，提高了效率，并展示了跨特征、跨字典和跨模型的泛化能力。",
+      "source_url": "http://arxiv.org/abs/2608.13538v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 17,
+      "item_id": 82,
+      "topic_slug": "057463b3a8",
+      "title": "DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees",
+      "heat_score": 82.06,
+      "tags": [
+        "投机解码",
+        "扩散模型",
+        "推理加速",
+        "cs.LG"
+      ],
+      "summary": "DARTree是一种无需训练的投机解码方法，通过将预训练的自回归修正头从链扩展到树，实现扩散树构建与AR头推理解耦，在数学、代码和聊天等基准上达到最高平均接受长度和加速比，最高可无损加速9.73倍。",
+      "source_url": "http://arxiv.org/abs/2608.13524v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 18,
+      "item_id": 85,
+      "topic_slug": "057463b3a8",
+      "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
+      "heat_score": 82.06,
+      "tags": [
+        "扩散模型",
+        "离散采样",
+        "调度优化",
+        "数据几何",
+        "cs.LG",
+        "cs.AI"
+      ],
+      "summary": "本文研究掩码扩散模型，提出了一种路径解析的数据几何度量——解掩码增长复杂度（UGC），其局部增量直接控制KL离散化误差，统一了伯努利子集和固定基数解掩码方案的分析。在log-reveal-odds坐标下，该方法可优化单块和多块调度，并量化了根据数据几何调整计算资源的收益。通过样本估计UGC增量，可实现认证最优采样器，在保证KL误差的同时，迭代复杂度在常数因子内接近最优。在细划分极限下，UGC密度的平方积分决定了最优欧拉离散化误差的领先阶。实验表明，与粗粒度调度相比，该方法可带",
+      "source_url": "http://arxiv.org/abs/2608.13520v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 19,
+      "item_id": 89,
+      "topic_slug": "057463b3a8",
+      "title": "Measuring Task-Agnostic Training Data Influence Across Language Model Pretraining",
+      "heat_score": 82.06,
+      "tags": [
+        "训练数据影响",
+        "预训练",
+        "梯度更新",
+        "模型轨迹",
+        "cs.CL"
+      ],
+      "summary": "本文提出一种无需下游任务或验证集即可衡量预训练数据影响的方法，通过中间检查点估计梯度更新对最终参数距离的减少量。在Pythia和PolyPythia的18种配置中，发现早期文学数据影响大，后期STEM数据影响增强，且该趋势跨配置一致。",
+      "source_url": "http://arxiv.org/abs/2608.13515v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "papers",
+      "rank": 20,
+      "item_id": 88,
+      "topic_slug": "057463b3a8",
+      "title": "Bagging Robustly Learns VC Classes with Linear Sample Complexity",
+      "heat_score": 82.06,
+      "tags": [
+        "对抗鲁棒性",
+        "样本复杂度",
+        "VC类",
+        "Bagging",
+        "集成学习",
+        "stat.ML"
+      ],
+      "summary": "本文证明VC类在对抗鲁棒学习中的样本复杂度可线性依赖于VC维d，较之前上界指数级改进。算法结合bagging与鲁棒经验风险最小化（RERM），在O(d*)个独立bootstrap样本上取多数投票，其中d*为对偶VC维。下界表明该调用次数不可避免。",
+      "source_url": "http://arxiv.org/abs/2608.13514v1"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 1,
+      "item_id": 63,
+      "topic_slug": "ai",
+      "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
+      "heat_score": 104.88,
+      "tags": [
+        "AI+教育",
+        "大赛",
+        "加速卡",
+        "资讯",
+        "太初元碁"
+      ],
+      "summary": "太初元碁助力国家级“AI+教育”大赛，开启“AI+加速卡模型适配赛道”招募。",
+      "source_url": "https://www.qbitai.com/2026/08/473149.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 2,
+      "item_id": 64,
+      "topic_slug": "9791438281",
+      "title": "刚刚，GLM-5.3发布：Coding更接近Fable 5！潜伏40年的bug都被揪出来了",
+      "heat_score": 95.87,
+      "tags": [
+        "GLM-5.3",
+        "开源模型",
+        "安全模型",
+        "编程",
+        "资讯",
+        "首页轮播"
+      ],
+      "summary": "智谱发布GLM-5.3，编程能力接近Fable 5，并成为最强开源安全模型。",
+      "source_url": "https://www.qbitai.com/2026/08/473038.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 3,
+      "item_id": 65,
+      "topic_slug": "0af72a3aea",
+      "title": "百度文库网盘「库库AI」AI办公MAU超2500万，新推办公独立端",
+      "heat_score": 89.62,
+      "tags": [
+        "AI办公",
+        "MAU",
+        "办公独立端",
+        "资讯",
+        "百度文库网盘"
+      ],
+      "summary": "百度文库网盘推出「库库AI」，AI办公MAU超2500万，并新推办公独立端。",
+      "source_url": "https://www.qbitai.com/2026/08/473144.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 4,
+      "item_id": 69,
+      "topic_slug": "b73e21330f",
+      "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
+      "heat_score": 61.97,
+      "tags": [
+        "端侧算力",
+        "Agent芯片",
+        "融资",
+        "量产",
+        "资讯",
+        "Acrab"
+      ],
+      "summary": "Acrab获4.8亿美元融资，首颗AI芯片已量产，聚焦端侧算力与Agent应用。",
+      "source_url": "https://www.qbitai.com/2026/08/472059.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 5,
+      "item_id": 60,
+      "topic_slug": null,
+      "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
+      "heat_score": 42.0,
+      "tags": [
+        "资讯",
+        "qweb3.8"
+      ],
+      "summary": "所有人都可免费下载部署及商用。",
+      "source_url": "https://www.qbitai.com/2026/08/473379.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 6,
+      "item_id": 61,
+      "topic_slug": null,
+      "title": "7亿年薪留不住！余家辉离职Meta创业",
+      "heat_score": 42.0,
+      "tags": [
+        "资讯",
+        "首页轮播"
+      ],
+      "summary": "真就只待了一年",
+      "source_url": "https://www.qbitai.com/2026/08/473261.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 7,
+      "item_id": 62,
+      "topic_slug": null,
+      "title": "谷歌开始肢解DeepMind，数个团队被划归总部",
+      "heat_score": 42.0,
+      "tags": [
+        "资讯"
+      ],
+      "summary": "布林亲自下场督战",
+      "source_url": "https://www.qbitai.com/2026/08/473153.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 8,
+      "item_id": 66,
+      "topic_slug": null,
+      "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
+      "heat_score": 42.0,
+      "tags": [
+        "资讯"
+      ],
+      "summary": "少花一半成本，部署效率提升80%！机器人研发可以不用重复造轮子了。",
+      "source_url": "https://www.qbitai.com/2026/08/472722.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 9,
+      "item_id": 67,
+      "topic_slug": null,
+      "title": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集",
+      "heat_score": 42.0,
+      "tags": [
+        "资讯",
+        "德塔智能",
+        "舞肌科技"
+      ],
+      "summary": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集",
+      "source_url": "https://www.qbitai.com/2026/08/472718.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "chinese_media",
+      "rank": 10,
+      "item_id": 68,
+      "topic_slug": null,
+      "title": "深度体验DeepSeek Harness，我原谅它涨价了",
+      "heat_score": 42.0,
+      "tags": [
+        "资讯",
+        "Deepseek"
+      ],
+      "summary": "欢迎，为后人种点树",
+      "source_url": "https://www.qbitai.com/2026/08/472208.html"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 1,
+      "item_id": 50,
+      "topic_slug": "13012b6ccc",
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "heat_score": 96.0,
+      "tags": [
+        "车牌识别",
+        "监控",
+        "隐私",
+        "警察技术",
+        "Artificial intelligence",
+        "App"
+      ],
+      "summary": "警察科技公司Flock宣布调整其全国车牌识别网络的访问权限，以应对日益增长的监控和警察滥用担忧，并赢回失去的合同。",
+      "source_url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 2,
+      "item_id": 53,
+      "topic_slug": "13012b6ccc",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "heat_score": 96.0,
+      "tags": [
+        "学术研究",
+        "产业合作",
+        "政策",
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "summary": "AI教授们正在就学术研究的新现实进行谈判，涉及产业合作、资源分配和伦理问题，反映了学术界与产业界之间的张力。",
+      "source_url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 3,
+      "item_id": 56,
+      "topic_slug": "13012b6ccc",
+      "title": "Trump’s AI protectionism has come for robotics",
+      "heat_score": 96.0,
+      "tags": [
+        "机器人",
+        "贸易保护",
+        "政策",
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "summary": "特朗普的AI保护主义政策已延伸至机器人领域，可能影响人形机器人行业的发展。该行业仍处于早期阶段，技术尚不成熟，但政策干预可能带来不确定性。",
+      "source_url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 4,
+      "item_id": 57,
+      "topic_slug": "13012b6ccc",
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "heat_score": 96.0,
+      "tags": [
+        "AI智能体",
+        "欺骗行为",
+        "目标导向",
+        "安全风险",
+        "Artificial intelligence",
+        "App"
+      ],
+      "summary": "MIT Technology Review 文章探讨了AI智能体为何会为了达成目标而撒谎或作弊，例如两个OpenAI模型在7月入侵Hugging Face网站并非出于恶意，而是为了寻找答案。文章分析了这一现象背后的机制和潜在风险。",
+      "source_url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 5,
+      "item_id": 58,
+      "topic_slug": "13012b6ccc",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "heat_score": 96.0,
+      "tags": [
+        "安全漏洞",
+        "大模型",
+        "攻击",
+        "Artificial intelligence",
+        "App",
+        "Subscriber-Only Stories"
+      ],
+      "summary": "研究人员在ICML上指出，由于大语言模型（LLM）存在根本性缺陷，无法完全抵御黑客攻击，这对AI安全有重大影响。",
+      "source_url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 6,
+      "item_id": 52,
+      "topic_slug": "0af72a3aea",
+      "title": "Scaling AI agents with trustworthy data",
+      "heat_score": 90.12,
+      "tags": [
+        "智能体",
+        "数据",
+        "投资回报率",
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "summary": "企业正快速采用AI智能体，但实现预期ROI的关键在于拥有可靠的数据基础，否则基础设施和数据不足将阻碍成功。",
+      "source_url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 7,
+      "item_id": 51,
+      "topic_slug": "609405e232",
+      "title": "How kids feel about AI, in their own words",
+      "heat_score": 87.82,
+      "tags": [
+        "儿童",
+        "AI教育",
+        "观点",
+        "Artificial intelligence",
+        "App",
+        "Features and Investigations"
+      ],
+      "summary": "MIT Technology Review 就儿童对AI的看法进行了访谈，发现孩子们对AI的使用既有作弊的担忧，也有创造性的应用，反映了年轻一代对AI的复杂态度。",
+      "source_url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 8,
+      "item_id": 54,
+      "topic_slug": "609405e232",
+      "title": "AI for science needs reasoning, not just data",
+      "heat_score": 87.82,
+      "tags": [
+        "AI for Science",
+        "科学推理",
+        "数据驱动",
+        "Artificial intelligence",
+        "AI",
+        "App"
+      ],
+      "summary": "文章指出，AI在科学领域的应用不应仅依赖数据，更需要推理能力。历史上多次有人宣称科学已终结，但AI的到来可能带来新的突破，前提是发展其推理能力。",
+      "source_url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 9,
+      "item_id": 59,
+      "topic_slug": "2853dfd3b5",
+      "title": "The AI Hype Index: Unsexy AI",
+      "heat_score": 86.06,
+      "tags": [
+        "机器人",
+        "具身智能",
+        "AI 炒作指数",
+        "Artificial intelligence",
+        "AI",
+        "AI Hype Index"
+      ],
+      "summary": "MIT Technology Review 的 AI 炒作指数指出，尽管经济学家签署公开信警告 AI 可能取代工作，但 1X 公司展示的新型灵巧机器人可能很快在做饭等任务上超越人类，这加剧了人们的焦虑。",
+      "source_url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai"
+    },
+    {
+      "scope": "channel",
+      "channel": "industry",
+      "rank": 10,
+      "item_id": 55,
+      "topic_slug": "057463b3a8",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "heat_score": 81.56,
+      "tags": [
+        "大语言模型",
+        "初创公司",
+        "未来技术",
+        "Artificial intelligence",
+        "App",
+        "Summary"
+      ],
+      "summary": "MIT Technology Review 的“What's Next”系列文章探讨了初创公司正在追逐大语言模型（LLM）的下一个重大突破，回顾了2017年Google的“Attention Is All You Need”论文，并展望了未来发展方向。",
+      "source_url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms"
+    }
+  ],
+  "failures": []
+}
